@@ -55,6 +55,12 @@
     "cancel": "Cancel",
     "reset_done": "All data cleared."
   },
+  "register_cta": {
+    "kicker": "Jakarta tax raffle",
+    "title": "Your chance to win a Wuling Air EV",
+    "subtitle": "Register free to enter the quarterly grand-prize draw — plus weekly voucher draws.",
+    "cta": "Register now"
+  },
   "register": {
     "title": "Create your account",
     "title_edit": "Edit your details",

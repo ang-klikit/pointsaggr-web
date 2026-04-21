@@ -1,4 +1,4 @@
-const DEFAULT_LOCALE = 'en-US';
+const DEFAULT_LOCALE = 'id-ID';
 
 /**
  * Format a cents-denominated amount for display.

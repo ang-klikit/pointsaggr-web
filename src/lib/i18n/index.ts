@@ -12,11 +12,20 @@ void i18n
       en: { translation: en },
       id: { translation: id },
     },
-    fallbackLng: 'id',
-    supportedLngs: ['en', 'id'],
+    // App is Jakarta-only; default to id-ID regardless of browser locale.
+    // Users can still switch to English from the profile screen, and the
+    // choice is persisted in localStorage.
+    fallbackLng: 'id-ID',
+    supportedLngs: ['en', 'id', 'id-ID'],
+    // `load: 'languageOnly'` makes i18next look up the `id` resource when
+    // the active language is `id-ID`, so we don't have to duplicate files.
+    load: 'languageOnly',
+    nonExplicitSupportedLngs: true,
     interpolation: { escapeValue: false },
     detection: {
-      order: ['localStorage', 'navigator'],
+      // Intentionally drops `navigator` — we don't want a user on an
+      // English-locale phone to see the app in English by default.
+      order: ['localStorage'],
       caches: ['localStorage'],
       lookupLocalStorage: 'mypoints:lang',
     },

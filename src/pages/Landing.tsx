@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { usePointsStore } from '@/store/points';
+import { useAccountStore } from '@/store/account';
 import { BrandHeader } from '@/components/BrandHeader';
 import { HeroBalance } from '@/components/HeroBalance';
+import { RegisterCta } from '@/components/RegisterCta';
 import { GrandPrizeCard } from '@/components/GrandPrizeCard';
 import { WeeklyPrizeCard } from '@/components/WeeklyPrizeCard';
 import { ScanCta } from '@/components/ScanCta';
@@ -12,6 +14,7 @@ export function Landing() {
   const { t, i18n } = useTranslation();
   const total = usePointsStore((s) => s.totalPoints);
   const claims = usePointsStore((s) => s.claims);
+  const account = useAccountStore((s) => s.account);
   const recent = claims.slice(0, 3);
 
   const dateFmt = new Intl.DateTimeFormat(i18n.language, { dateStyle: 'medium' });
@@ -20,7 +23,7 @@ export function Landing() {
     <div className="flex flex-col gap-6 px-5 pt-8 pb-6 safe-top">
       <BrandHeader variant="hero" />
 
-      <HeroBalance total={total} />
+      {account ? <HeroBalance total={total} /> : <RegisterCta />}
 
       <ScanCta />
 
@@ -32,7 +35,7 @@ export function Landing() {
         <WeeklyPrizeCard />
       </section>
 
-      {recent.length === 0 ? null : (
+      {!account || recent.length === 0 ? null : (
         <section className="flex flex-col gap-3">
           <div className="flex items-center justify-between">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-ink-muted">

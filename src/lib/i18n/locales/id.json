@@ -55,6 +55,12 @@
     "cancel": "Batal",
     "reset_done": "Semua data telah dihapus."
   },
+  "register_cta": {
+    "kicker": "Undian Pajak Jakarta",
+    "title": "Kesempatan menang Wuling Air EV",
+    "subtitle": "Daftar gratis untuk ikut undian hadiah utama kuartalan — plus undian voucher mingguan.",
+    "cta": "Daftar sekarang"
+  },
   "register": {
     "title": "Buat akun kamu",
     "title_edit": "Ubah data kamu",
