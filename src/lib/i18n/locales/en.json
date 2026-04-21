@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "Poin Pajak Jakarta",
+    "short_name": "Poin Jakarta",
+    "issuer": "Bapenda DKI Jakarta",
+    "tagline": "Scan receipts. Support Jakarta. Win prizes."
+  },
+  "nav": {
+    "home": "Home",
+    "history": "History",
+    "profile": "Profile"
+  },
+  "landing": {
+    "balance": "Your balance",
+    "points": "points",
+    "empty_title": "No points yet",
+    "empty_body": "Scan the QR on any Jakarta tax receipt to claim your first points.",
+    "cta_history": "View history"
+  },
+  "claim": {
+    "title": "Claim your points",
+    "order_summary": "Order summary",
+    "order_id": "Order",
+    "brand": "Merchant",
+    "amount": "Amount",
+    "date": "Date",
+    "you_will_earn": "You'll earn",
+    "cta_claim": "Claim {{points}} points",
+    "cta_register_first": "Register to claim {{points}} points",
+    "cta_view_balance": "View balance",
+    "success_title": "Points claimed!",
+    "success_body": "{{points}} points added to your balance.",
+    "already_title": "Already claimed",
+    "already_body": "You claimed {{points}} points from this receipt on {{date}}.",
+    "error_title": "Can't read this receipt",
+    "error_body": "The QR code looks invalid or outdated. Try scanning again.",
+    "error_back": "Go home"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No claims yet.",
+    "earned_on": "Earned on {{date}}",
+    "points_suffix": "pts"
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit",
+    "total_points": "Total points",
+    "total_claims": "Receipts scanned",
+    "language": "Language",
+    "reset": "Reset all data",
+    "reset_confirm_title": "Reset your data?",
+    "reset_confirm_body": "This will clear your account, claim history, and reset your balance to zero. This can't be undone.",
+    "reset_confirm_cta": "Yes, reset",
+    "cancel": "Cancel",
+    "reset_done": "All data cleared."
+  },
+  "register": {
+    "title": "Create your account",
+    "title_edit": "Edit your details",
+    "subtitle": "Bapenda DKI Jakarta needs your name and phone to enter you in the draws and deliver prizes.",
+    "subtitle_edit": "Update the name and phone we use for prize draws.",
+    "name_label": "Full name",
+    "name_placeholder": "e.g. Siti Nurhayati",
+    "phone_label": "Mobile number",
+    "phone_placeholder": "+62 812 3456 7890",
+    "phone_hint": "We'll contact you here if you win.",
+    "continue": "Continue",
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "error_name": "Please enter your full name.",
+    "error_phone": "Please enter a valid mobile number.",
+    "privacy": "Your details stay on this device and are only used to notify winners."
+  },
+  "not_found": {
+    "title": "Page not found",
+    "cta": "Go home"
+  },
+  "raffle": {
+    "section_title": "Prizes up for grabs",
+    "grand_kicker": "Grand Prize",
+    "grand_prize_title": "Wuling Air EV",
+    "grand_prize_subtitle": "One winner every quarter, drawn from all Jakarta taxpayers.",
+    "weekly_kicker": "This Week",
+    "weekly_prize_title": "Rp 100,000 vouchers",
+    "weekly_prize_subtitle": "New winners every Sunday.",
+    "your_entries": "Your entries",
+    "your_entries_week": "Your entries this week",
+    "entries_zero": "No entries yet",
+    "entries_one": "1 entry",
+    "entries_other": "{{count}} entries",
+    "draws_in": "Draws in",
+    "draw_complete": "Draw complete — winners announced soon.",
+    "countdown_days": "days",
+    "countdown_hours": "hrs",
+    "countdown_minutes": "min",
+    "countdown_seconds": "sec"
+  },
+  "scan_cta": {
+    "title": "Scan every tax receipt",
+    "subtitle": "Each receipt you scan verifies Jakarta's tax records, earns you points, and counts as 1 entry in the draw.",
+    "how": "How to scan",
+    "how_title": "How to scan a receipt",
+    "step_1_title": "Grab your receipt",
+    "step_1_body": "Find the QR at the bottom of any Jakarta restaurant, hotel, or parking receipt.",
+    "step_2_title": "Open your phone camera",
+    "step_2_body": "Point it at the QR. Tap the link that appears.",
+    "step_3_title": "Tap Claim",
+    "step_3_body": "Points land instantly — and you get another raffle entry.",
+    "got_it": "Got it"
+  }
+}

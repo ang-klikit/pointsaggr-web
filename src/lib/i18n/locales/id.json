@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "Poin Pajak Jakarta",
+    "short_name": "Poin Jakarta",
+    "issuer": "Bapenda DKI Jakarta",
+    "tagline": "Scan struk. Dukung Jakarta. Menangkan hadiah."
+  },
+  "nav": {
+    "home": "Beranda",
+    "history": "Riwayat",
+    "profile": "Profil"
+  },
+  "landing": {
+    "balance": "Saldo kamu",
+    "points": "poin",
+    "empty_title": "Belum ada poin",
+    "empty_body": "Scan QR di struk pajak Jakarta mana pun untuk mendapatkan poin pertama kamu.",
+    "cta_history": "Lihat riwayat"
+  },
+  "claim": {
+    "title": "Klaim poin kamu",
+    "order_summary": "Ringkasan transaksi",
+    "order_id": "Transaksi",
+    "brand": "Pedagang",
+    "amount": "Total",
+    "date": "Tanggal",
+    "you_will_earn": "Kamu akan dapat",
+    "cta_claim": "Klaim {{points}} poin",
+    "cta_register_first": "Daftar untuk klaim {{points}} poin",
+    "cta_view_balance": "Lihat saldo",
+    "success_title": "Poin berhasil diklaim!",
+    "success_body": "{{points}} poin ditambahkan ke saldo kamu.",
+    "already_title": "Sudah diklaim",
+    "already_body": "Kamu sudah mengklaim {{points}} poin dari struk ini pada {{date}}.",
+    "error_title": "Tidak bisa membaca struk ini",
+    "error_body": "QR-nya tampak tidak valid atau kadaluarsa. Coba scan lagi.",
+    "error_back": "Ke beranda"
+  },
+  "history": {
+    "title": "Riwayat",
+    "empty": "Belum ada klaim.",
+    "earned_on": "Didapat pada {{date}}",
+    "points_suffix": "poin"
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Ubah",
+    "total_points": "Total poin",
+    "total_claims": "Struk discan",
+    "language": "Bahasa",
+    "reset": "Reset semua data",
+    "reset_confirm_title": "Reset data kamu?",
+    "reset_confirm_body": "Ini akan menghapus akun, riwayat klaim, dan mengembalikan saldo ke nol. Tidak bisa dibatalkan.",
+    "reset_confirm_cta": "Ya, reset",
+    "cancel": "Batal",
+    "reset_done": "Semua data telah dihapus."
+  },
+  "register": {
+    "title": "Buat akun kamu",
+    "title_edit": "Ubah data kamu",
+    "subtitle": "Bapenda DKI Jakarta butuh nama dan nomor HP kamu untuk mengikutsertakan di undian dan mengirim hadiah.",
+    "subtitle_edit": "Perbarui nama dan nomor HP yang kami pakai untuk undian.",
+    "name_label": "Nama lengkap",
+    "name_placeholder": "mis. Siti Nurhayati",
+    "phone_label": "Nomor HP",
+    "phone_placeholder": "+62 812 3456 7890",
+    "phone_hint": "Kami akan menghubungi kamu di sini jika menang.",
+    "continue": "Lanjutkan",
+    "save": "Simpan perubahan",
+    "cancel": "Batal",
+    "error_name": "Masukkan nama lengkap kamu.",
+    "error_phone": "Masukkan nomor HP yang valid.",
+    "privacy": "Data kamu tersimpan di perangkat ini dan hanya dipakai untuk menghubungi pemenang."
+  },
+  "not_found": {
+    "title": "Halaman tidak ditemukan",
+    "cta": "Ke beranda"
+  },
+  "raffle": {
+    "section_title": "Hadiah menanti",
+    "grand_kicker": "Hadiah Utama",
+    "grand_prize_title": "Wuling Air EV",
+    "grand_prize_subtitle": "Satu pemenang setiap akhir kuartal dari seluruh warga pelapor pajak Jakarta.",
+    "weekly_kicker": "Minggu Ini",
+    "weekly_prize_title": "Voucher Rp 100.000",
+    "weekly_prize_subtitle": "Pemenang baru setiap hari Minggu.",
+    "your_entries": "Tiket kamu",
+    "your_entries_week": "Tiket kamu minggu ini",
+    "entries_zero": "Belum ada tiket",
+    "entries_one": "1 tiket",
+    "entries_other": "{{count}} tiket",
+    "draws_in": "Pengundian dalam",
+    "draw_complete": "Pengundian selesai — pemenang diumumkan segera.",
+    "countdown_days": "hari",
+    "countdown_hours": "jam",
+    "countdown_minutes": "mnt",
+    "countdown_seconds": "dtk"
+  },
+  "scan_cta": {
+    "title": "Scan tiap struk pajak",
+    "subtitle": "Setiap struk yang kamu scan membantu verifikasi pajak Jakarta, memberi poin, dan 1 tiket undian.",
+    "how": "Cara scan",
+    "how_title": "Cara scan struk",
+    "step_1_title": "Ambil struk kamu",
+    "step_1_body": "Cari QR di bagian bawah struk restoran, hotel, atau parkir di Jakarta.",
+    "step_2_title": "Buka kamera ponsel",
+    "step_2_body": "Arahkan ke QR. Ketuk link yang muncul.",
+    "step_3_title": "Ketuk Klaim",
+    "step_3_body": "Poin langsung masuk — dan kamu dapat tiket undian tambahan.",
+    "got_it": "Mengerti"
+  }
+}
