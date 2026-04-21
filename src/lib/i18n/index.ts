@@ -25,9 +25,12 @@ void i18n
     detection: {
       // Intentionally drops `navigator` — we don't want a user on an
       // English-locale phone to see the app in English by default.
+      // Storage key is `:v2` because `:v1` was auto-populated with 'en'
+      // back when fallback was 'en' + navigator was in detection order;
+      // bumping invalidates those stale caches so id-ID actually wins.
       order: ['localStorage'],
       caches: ['localStorage'],
-      lookupLocalStorage: 'mypoints:lang',
+      lookupLocalStorage: 'mypoints:lang:v2',
     },
   });
 

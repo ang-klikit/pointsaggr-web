@@ -1,14 +1,29 @@
+import { useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { usePointsStore } from '@/store/points';
+import { useAccountStore } from '@/store/account';
 import { formatAmount, formatPoints } from '@/lib/currency';
 
 export function History() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const account = useAccountStore((s) => s.account);
   const claims = usePointsStore((s) => s.claims);
   const dateFmt = new Intl.DateTimeFormat(i18n.language, {
     dateStyle: 'medium',
     timeStyle: 'short',
   });
+
+  useEffect(() => {
+    if (!account) {
+      const next = encodeURIComponent(location.pathname);
+      navigate(`/me/register?next=${next}`, { replace: true });
+    }
+  }, [account, location.pathname, navigate]);
+
+  if (!account) return null;
 
   return (
     <div className="flex flex-col gap-5 px-5 pt-8 safe-top">

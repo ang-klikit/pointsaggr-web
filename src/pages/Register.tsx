@@ -121,7 +121,11 @@ export function Register() {
           <Button type="button" variant="ghost" onClick={() => navigate(-1)}>
             {t('register.cancel')}
           </Button>
-        ) : null}
+        ) : (
+          <Button type="button" variant="ghost" onClick={() => navigate('/', { replace: true })}>
+            {t('register.later')}
+          </Button>
+        )}
       </form>
 
       {!isEdit && (
